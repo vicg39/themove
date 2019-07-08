@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    margin-top: 300px;
+    font-size: 100px;
+}
+
+.go-back-btn{
+    
+    margin-left: 600px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 100px;
+    padding: 1em 1.5em;
+    color: white;   
+    font-size: 20px;
+}
+
+
+
+
+

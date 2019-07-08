@@ -1,0 +1,88 @@
+#msg {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #0CF;
+    color: #000;
+}
+
+.mt-5, .my-5 {
+    margin-top: 29rem !important;
+    }
+
+
+#msg.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s, 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {top: 30px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {top: 30px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}
+
+
+body {
+    background: url(../bg-img/bg3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* color: white; */
+}
+
+h1 {
+    /* color: white; */
+    margin-bottom: 30px; 
+}
+
+
+
+.signup {
+    
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 550px;
+    margin: auto;
+    margin-top: 80px;
+    height: 420px;
+    /* margin-left: 530px; */
+    border-radius: 5px;
+    align-content: center;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+input {
+    align-items: center;
+    width: 460px;
+    height: 35px;
+    border-radius: 5px; 
+}
+
+.signup-btn {
+    padding-top: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+

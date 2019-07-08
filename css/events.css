@@ -1,0 +1,76 @@
+body {
+    background: url(../bg-img/bg5.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+
+body {
+    font-family: 'Varela', sans-serif;
+}
+
+.main-title {
+    font-size: 45px;
+    font-family: 'Bangers', cursive;
+}
+
+a > .main-title {
+    text-decoration: none;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+footer {
+    color: white;
+}
+
+.picture {
+    padding-left: 100px;
+    width: 400px;
+}
+
+.evet-center-text {
+    padding-bottom: 30px;
+    
+    
+}
+#event-name {
+    font-size: 15px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.form-control {
+    font-size: 15px;
+}
+
+.form-group  {
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.container {
+    color: white;
+}
+
+.btn-event {
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+footer {
+    color: white;
+    margin-top: 220px;
+}
+
+.mt-5, .my-5 {
+    margin-top: 8rem !important;
+}
